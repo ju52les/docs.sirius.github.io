@@ -24,7 +24,7 @@ which might take some time for many structures.
 
 
 ```shell
-sirius -i <structure.tsv> cistom-db --name myDB --output /some/dir
+sirius -i <structure.tsv> custom-db --import=</some/dir>
 ```
 
 Note, that we usually use PubChem standardized SMILES to represent the structures for our machine learning methods. 
